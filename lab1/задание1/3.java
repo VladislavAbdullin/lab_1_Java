@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public int charToNum(char x) {
-        // Проверяем, является ли символ цифрой
+      
         if (x >= '0' && x <= '9') {
-            return x - '0'; // Преобразуем символ в соответствующее число
+            return x - '0';
         }
         throw new IllegalArgumentException("Входной символ не является цифрой.");
     }
